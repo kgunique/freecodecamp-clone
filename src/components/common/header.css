@@ -1,0 +1,67 @@
+.header{
+    background-color: #0a0a23;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto-Mono,sans-serif;
+    font-size: 18px;
+    height: 40px;
+    padding: 0 15px;
+    /* border: 1px solid yellow; */
+
+}
+/* sticky top-0 z-200 grid grid-cols-3 */
+.left_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    /* border: 1px solid red; */
+
+}
+.header_search_icon{
+    height: 24px;
+    width: 30px;
+    background-color: #3b3b4f;
+    color: #f5f6f7;
+    border-color: #1b1b32;
+}
+
+.header_input{
+    background-color: #3b3b4f;
+    height: 24px;
+    width: 15rem;
+    color: white;
+    outline: none;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.header_logo{
+    height: 24px;
+    color: white;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+    
+}
+.header_right_button{
+    height: 30px;
+    width: 75%;
+    border: 1px solid #fff;
+    color: white;
+    padding: 2px 14px;
+    margin-right: 10px;
+}
+.header_right_avtar{
+    height: 30px;
+}
